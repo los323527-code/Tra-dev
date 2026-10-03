@@ -223,7 +223,7 @@ fn app() -> Html {
     html! {
         <>
             <header class="hero">
-                <h1>{ "Tra-dev" }</h1>
+                <h1>{ "TraBases" }</h1>
                 <p class="tagline">
                     { "A community library of Clash of Clans base layouts. \
                        Browse, search, and open any base directly in-game." }
