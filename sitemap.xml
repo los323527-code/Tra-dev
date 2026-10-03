@@ -1,2 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://tra-dev.vercel.app/</loc></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://tra-dev.vercel.app/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://tra-dev.vercel.app/guide/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://tra-dev.vercel.app/guide/th4/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://tra-dev.vercel.app/guide/th5/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://tra-dev.vercel.app/guide/th6/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://tra-dev.vercel.app/guide/th7/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://tra-dev.vercel.app/guide/th8/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://tra-dev.vercel.app/guide/th9/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://tra-dev.vercel.app/guide/th10/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://tra-dev.vercel.app/guide/th11/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://tra-dev.vercel.app/guide/th12/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://tra-dev.vercel.app/guide/th13/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://tra-dev.vercel.app/guide/th14/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://tra-dev.vercel.app/guide/th15/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://tra-dev.vercel.app/guide/th16/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://tra-dev.vercel.app/guide/th17/</loc><lastmod>2026-10-03</lastmod></url>
+<url><loc>https://tra-dev.vercel.app/guide/th18/</loc><lastmod>2026-10-03</lastmod></url>
+</urlset>
