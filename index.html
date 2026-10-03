@@ -27,8 +27,11 @@
     <link data-trunk rel="copy-file" href="bases.json" />
     <link data-trunk rel="copy-file" href="favicon.svg" />
     <link data-trunk rel="copy-file" href=".nojekyll" />
+      <link data-trunk rel="copy-dir" href="robot" />
   </head>
   <body>
+<div id="robot-wrap" style="display:flex;justify-content:center;padding-top:24px"><agent-robot-avatar id="robot" size="240" auto-sleep="0"></agent-robot-avatar></div>
+<script type="module">import "/robot/agent-robot-avatar.js";const r=document.getElementById("robot");const m=["surprise","success","inspect","warning","bored","waiting","angry","failure","error"];const w=t=>new Promise(a=>setTimeout(a,t));(async()=>{let i=0;while(true){try{Promise.resolve(r.play(m[i%m.length])).catch(console.warn)}catch(e){}await w(3000);try{r.reset()}catch(e){}await w(800);i++}})()</script>
     <noscript>
       <p style="text-align:center;padding:2rem;color:#e8ecf3;background:#0f1218;font-family:sans-serif">
         Clash Bases is a Rust/WebAssembly app and needs JavaScript enabled.
