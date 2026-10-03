@@ -283,15 +283,7 @@ fn app() -> Html {
             <main>{ body }</main>
 
             <footer>
-                <p>
-                    { "Bases live in " }
-                    <code>{ "bases.json" }</code>
-                    { " — " }
-                    <a href="https://github.com/nschmeller/clash-bases" target="_blank" rel="noopener noreferrer">
-                        { "view source on GitHub" }
-                    </a>
-                    { " or open a pull request to add yours." }
-                </p>
+                <p>{ "Developer by Tra" }</p>
             </footer>
         </>
     }
