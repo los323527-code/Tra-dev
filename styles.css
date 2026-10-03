@@ -307,3 +307,20 @@ html, body {
   background: linear-gradient(rgba(15, 18, 24, 0.55), rgba(15, 18, 24, 0.55)),
               url("bg.png") center / cover no-repeat fixed var(--bg) !important;
 }
+
+/* smooth: fixed pseudo-element instead of background-attachment: fixed */
+html { background: var(--bg) !important; }
+body { background: none !important; }
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(rgba(15, 18, 24, 0.55), rgba(15, 18, 24, 0.55)),
+              url("bg.jpg") center / cover no-repeat;
+  transform: translateZ(0);
+}
+.card {
+  content-visibility: auto;
+  contain-intrinsic-size: 420px;
+}
