@@ -339,12 +339,6 @@ fn base_card(props: &BaseCardProps) -> Html {
                 <span class="type">{ &b.base_type }</span>
             </div>
             <h2>{ &b.name }</h2>
-            if !b.builder.is_empty() {
-                <p class="builder">{ "by " }<strong>{ &b.builder }</strong></p>
-            }
-            if !b.description.is_empty() {
-                <p class="desc">{ &b.description }</p>
-            }
             if !b.tags.is_empty() {
                 <ul class="tags">
                     { for b.tags.iter().map(|t| html! { <li>{ t }</li> }) }
