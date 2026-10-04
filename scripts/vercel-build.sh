@@ -27,5 +27,6 @@ rustc --version
 trunk --version
 
 trunk build --release --public-url /
+cp -r launcher dist/launcher
 
 ls -la dist
