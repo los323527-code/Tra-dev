@@ -17,7 +17,7 @@
   .card{
     background:linear-gradient(180deg,rgba(58,42,110,.82),rgba(43,32,88,.88));
     backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
-    border:2px solid var(--edge);border-radius:20px;padding:12px 6px 12px;
+    border:2px solid var(--edge);border-radius:20px;padding:12px 6px;
     text-align:center;display:flex;flex-direction:column;align-items:center;gap:8px;
   }
   .icon{width:100%;max-width:84px;aspect-ratio:1;border-radius:22%;display:grid;place-items:center;font-size:36px;box-shadow:0 4px 12px rgba(0,0,0,.45)}
@@ -47,10 +47,8 @@
     <section class="card">
       <div class="icon topup" aria-hidden="true">💎</div>
       <div class="name">Tratopup</div>
-      <a class="btn" href="https://...">Open</a>
+      <a class="btn" href="https://tratopup.com/">Open</a>
     </section>
   </main>
-<div id="toast" style="position:fixed;left:50%;bottom:40px;transform:translateX(-50%);background:rgba(0,0,0,.78);color:#fff;padding:12px 22px;border-radius:999px;font-weight:700;opacity:0;transition:opacity .25s;pointer-events:none">Coming soon</div>
-<script>function soon(e){e.preventDefault();var t=document.getElementById("toast");t.style.opacity=1;clearTimeout(window.tt);window.tt=setTimeout(function(){t.style.opacity=0},2000)}</script>
 </body>
 </html>
