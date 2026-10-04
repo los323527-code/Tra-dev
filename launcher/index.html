@@ -21,7 +21,7 @@
     text-align:center;display:flex;flex-direction:column;align-items:center;gap:14px;
   }
   .icon{width:min(130px,100%);aspect-ratio:1;border-radius:24px;display:grid;place-items:center;font-size:64px;box-shadow:0 6px 18px rgba(0,0,0,.45)}
-  .bases{background:linear-gradient(135deg,#4a7bd6,#1b2a6b)}
+  img.icon{object-fit:cover;background:none}
   .music{background:linear-gradient(135deg,#d65a9a,#4b1f7a)}
   .name{width:100%;padding-top:12px;font-weight:700;font-size:18px;border-top:1px solid rgba(255,255,255,.12)}
   .btn{
@@ -35,7 +35,7 @@
 <body>
   <main class="grid">
     <section class="card">
-      <div class="icon bases" aria-hidden="true">🏰</div>
+      <img class="icon" src="tra.png" alt="TraBases">
       <div class="name">TraBases</div>
       <a class="btn" href="https://tra-dev.vercel.app/">Open</a>
     </section>
