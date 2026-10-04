@@ -50,5 +50,7 @@
       <a class="btn" href="https://...">Open</a>
     </section>
   </main>
+<div id="toast" style="position:fixed;left:50%;bottom:40px;transform:translateX(-50%);background:rgba(0,0,0,.78);color:#fff;padding:12px 22px;border-radius:999px;font-weight:700;opacity:0;transition:opacity .25s;pointer-events:none">Coming soon</div>
+<script>function soon(e){e.preventDefault();var t=document.getElementById("toast");t.style.opacity=1;clearTimeout(window.tt);window.tt=setTimeout(function(){t.style.opacity=0},2000)}</script>
 </body>
 </html>
